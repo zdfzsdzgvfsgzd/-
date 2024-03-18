@@ -1,0 +1,13 @@
+
+
+# Створення вікна
+root = tk.Tk()
+
+# Властивості вікна
+root.title("Практична робота")
+root.geometry("200x100+150+100")
+root.configure(bg="gray")
+
+# Запуск головного циклу
+root.mainloop()
+
